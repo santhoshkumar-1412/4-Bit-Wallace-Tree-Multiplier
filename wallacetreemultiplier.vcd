@@ -1,0 +1,241 @@
+$date
+	Fri Nov 13 09:19:46 2026
+$end
+
+$version
+	Synopsys VCS version W-2024.09-SP2_Full64
+$end
+
+$timescale
+	1ps
+$end
+
+$comment Csum: 1 558ad37471cb6727 $end
+
+
+$scope module wallace_tree_multiplier_tb $end
+$var wire 8 ! p [7:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+
+$scope module dut $end
+$var wire 8 ! p [7:0] $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 16 & pp [15:0] $end
+$var wire 1 ' p1 $end
+$var wire 1 ( c1 $end
+$var wire 1 ) s2 $end
+$var wire 1 * c2 $end
+$var wire 1 + p2 $end
+$var wire 1 , c3 $end
+$var wire 1 - s3a $end
+$var wire 1 . c3a $end
+$var wire 1 / s3b $end
+$var wire 1 0 c3b $end
+$var wire 1 1 p3 $end
+$var wire 1 2 c4 $end
+$var wire 1 3 s4a $end
+$var wire 1 4 c4a $end
+$var wire 1 5 s4b $end
+$var wire 1 6 c4b $end
+$var wire 1 7 p4 $end
+$var wire 1 8 c5 $end
+$var wire 1 9 s5a $end
+$var wire 1 : c5a $end
+$var wire 1 ; s5b $end
+$var wire 1 < c5b $end
+$var wire 1 = p5 $end
+$var wire 1 > c6 $end
+$var wire 1 ? s6 $end
+$var wire 1 @ c7 $end
+$var wire 1 A p6 $end
+$var wire 1 B c8 $end
+$var wire 1 C unused_carry $end
+
+$scope module h1 $end
+$var wire 1 ' s $end
+$var wire 1 ( c $end
+$var wire 1 D a $end
+$var wire 1 E b $end
+$upscope $end
+
+
+$scope module f1 $end
+$var wire 1 ) s $end
+$var wire 1 * cout $end
+$var wire 1 F a $end
+$var wire 1 G b $end
+$var wire 1 H cin $end
+$upscope $end
+
+
+$scope module h2 $end
+$var wire 1 + s $end
+$var wire 1 , c $end
+$var wire 1 ) a $end
+$var wire 1 ( b $end
+$upscope $end
+
+
+$scope module f2 $end
+$var wire 1 - s $end
+$var wire 1 . cout $end
+$var wire 1 I a $end
+$var wire 1 J b $end
+$var wire 1 K cin $end
+$upscope $end
+
+
+$scope module f3 $end
+$var wire 1 / s $end
+$var wire 1 0 cout $end
+$var wire 1 L a $end
+$var wire 1 * b $end
+$var wire 1 , cin $end
+$upscope $end
+
+
+$scope module h3 $end
+$var wire 1 1 s $end
+$var wire 1 2 c $end
+$var wire 1 - a $end
+$var wire 1 / b $end
+$upscope $end
+
+
+$scope module f4 $end
+$var wire 1 3 s $end
+$var wire 1 4 cout $end
+$var wire 1 M a $end
+$var wire 1 N b $end
+$var wire 1 O cin $end
+$upscope $end
+
+
+$scope module f5 $end
+$var wire 1 5 s $end
+$var wire 1 6 cout $end
+$var wire 1 . a $end
+$var wire 1 0 b $end
+$var wire 1 2 cin $end
+$upscope $end
+
+
+$scope module h4 $end
+$var wire 1 7 s $end
+$var wire 1 8 c $end
+$var wire 1 3 a $end
+$var wire 1 5 b $end
+$upscope $end
+
+
+$scope module f6 $end
+$var wire 1 9 s $end
+$var wire 1 : cout $end
+$var wire 1 P a $end
+$var wire 1 Q b $end
+$var wire 1 4 cin $end
+$upscope $end
+
+
+$scope module h5 $end
+$var wire 1 ; s $end
+$var wire 1 < c $end
+$var wire 1 6 a $end
+$var wire 1 8 b $end
+$upscope $end
+
+
+$scope module h6 $end
+$var wire 1 = s $end
+$var wire 1 > c $end
+$var wire 1 9 a $end
+$var wire 1 ; b $end
+$upscope $end
+
+
+$scope module f7 $end
+$var wire 1 ? s $end
+$var wire 1 @ cout $end
+$var wire 1 R a $end
+$var wire 1 : b $end
+$var wire 1 < cin $end
+$upscope $end
+
+
+$scope module h7 $end
+$var wire 1 A s $end
+$var wire 1 B c $end
+$var wire 1 ? a $end
+$var wire 1 > b $end
+$upscope $end
+
+
+$scope module h8 $end
+$var wire 1 S s $end
+$var wire 1 C c $end
+$var wire 1 @ a $end
+$var wire 1 B b $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0*
+0,
+0.
+00
+02
+04
+06
+08
+0:
+0<
+0@
+0B
+0S
+1'
+1D
+1+
+0E
+01
+0F
+07
+1G
+0=
+0?
+0H
+0A
+09
+0I
+03
+0J
+0-
+0K
+1)
+0L
+0>
+0M
+0;
+0N
+05
+0O
+0/
+0P
+0(
+0Q
+0R
+0C
+b0010 "
+b0011 #
+b0010 $
+b0011 %
+b00000110 !
+b0000000000100010 &
+$end
