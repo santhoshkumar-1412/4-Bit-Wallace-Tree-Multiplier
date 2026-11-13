@@ -110,13 +110,8 @@ The Half Adder performs the addition of two single-bit inputs.
 
 **Boolean Expressions:**
 
-\[
-S = A \oplus B
-\]
-
-\[
-C = A \cdot B
-\]
+- Sum: `S = A ^ B`
+- Carry: `C = A & B`
 
 ### 4.2 Full Adder (FA)
 
@@ -124,13 +119,8 @@ The Full Adder performs the addition of three single-bit inputs and generates Su
 
 **Boolean Expressions:**
 
-\[
-S = A \oplus B \oplus C_{in}
-\]
-
-\[
-C_{out} = AB + BC_{in} + AC_{in}
-\]
+- Sum: `S = A ^ B ^ Cin`
+- Carry: `Cout = (A & B) | (B & Cin) | (A & Cin)`
 
 ## 5. Repository Structure
 
